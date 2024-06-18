@@ -157,11 +157,50 @@ nav .logo h3 {
     font-style: italic;
     font-weight: bold;
 }
-nav .logo ul {
+nav .logo ul a {
     list-style: none;
     padding: 10px;
     padding-right: 20px;
     margin: 0;
     display: flex;
+}
+}
+@media (min-width: 400px) and (max-width: 600px){
+    nav .logo h3 {
+    margin: 5px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+nav .logo ul a {
+    list-style: none;
+    padding: 10px;
+    padding-right: 20px;
+    margin: 0;
+    display: flex;
+}
+}
+@media (min-width: 300px) and (max-width: 546px){
+    nav .logo h3 {
+    margin: 0px;
+    padding-left: 5px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+nav .logo ul a {
+    list-style: none;
+    padding: 5px;
+    padding-right: 5px;
+    margin: 0;
+    font-size:10px;
+}
+nav .logo ul {
+    list-style: none;
+    padding: 0px;
+    padding-right: 20px;
+    margin: 0;
+    font-size:10px;
 }
 }
